@@ -1,7 +1,7 @@
 a = 10
 b = 3
 
-print("Penjumlahan :", a + b)
-print("Pengurangan :", a - b)
-print("Perkalian :", a * b)
-print("Pembagian :", a / b)
+print(f"Penjumlahan : {a + b}")
+print(f"Pengurangan : {a - b}")
+print(f"Perkalian : {a * b}")
+print(f"Pembagian : {a / b}")
