@@ -1,0 +1,2 @@
+Ini data suhu mesin kapal.
+Suhu rata-rata: 75.3°C
