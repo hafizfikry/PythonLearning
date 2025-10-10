@@ -10,8 +10,8 @@ for i in range(10):
     temperature.append(temp)
     pressure.append(press)
 
-with open('engine_log.csv', 'w', newline='') as  file:
-    writer = csv.writer(file)
+with open('engine_log.csv', mode='w', newline='') as  file:
+    writer = csv.writer(file, delimiter=';')
     writer.writerow(['No', 'Temperatures', 'Pressures'])
 
     for i in range(len(temperature)):
